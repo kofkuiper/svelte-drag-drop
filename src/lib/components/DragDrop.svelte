@@ -132,6 +132,7 @@
 		will-change: transform;
 		transform: skewX(0.001deg);
 		transition: transform 0.35s ease-in-out;
+		cursor: pointer;
 	}
 	.b-game-card__cover::after {
 		display: block;
