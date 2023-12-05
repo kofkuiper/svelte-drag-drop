@@ -40,14 +40,16 @@
 		const from = e.dataTransfer.getData('draggedParentIndex');
 		const to = e.target.dataset.index;
 		if (from != to) {
-			sortItems(from, to);
+			moveItems(from, to);
 		}
 	}
 
-	function sortItems(fromIndex: number, toIndex: number) {
-		const tempFrom = items[fromIndex];
-		items[fromIndex] = items[toIndex];
-		items[toIndex] = tempFrom;
+	function moveItems(fromIndex: number, toIndex: number) {
+		const temp = [...items];
+		const toMove = temp[fromIndex];
+		temp.splice(fromIndex, 1);
+		temp.splice(toIndex, 0, toMove);
+		items = temp;
 	}
 </script>
 
