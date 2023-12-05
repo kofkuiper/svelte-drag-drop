@@ -10,6 +10,10 @@ You can install the svelte-drag-drop component from npm by running the following
 $ npm install svelte-drag-drop
 ```
 
+
+https://github.com/kofkuiper/svelte-drag-drop/assets/104291370/eed53dd0-fd17-48ae-ae3c-db2827b0bb96
+
+
 ## :fire: Usage
 ### Basic usage example
 ```ts
