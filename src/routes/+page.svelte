@@ -1,3 +1,12 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import DragDrop from '$lib/components/DragDrop.svelte';
+
+	let items = [
+		'https://andrewhawkes.github.io/codepen-assets/steam-game-cards/game_1.jpg',
+		'https://andrewhawkes.github.io/codepen-assets/steam-game-cards/game_2.jpg',
+		'https://andrewhawkes.github.io/codepen-assets/steam-game-cards/game_3.jpg',
+		'https://andrewhawkes.github.io/codepen-assets/steam-game-cards/game_4.jpg'
+	];
+</script>
+
+<DragDrop bind:items />
