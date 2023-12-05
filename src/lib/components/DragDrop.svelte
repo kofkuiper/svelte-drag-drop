@@ -16,8 +16,8 @@
 	function onDrag(e: EventType) {
 		dispatch('onDrag', e);
 	}
-	function onDragend(e: EventType) {
-		dispatch('onDragend', e);
+	function onDragEnd(e: EventType) {
+		dispatch('onDragEnd', e);
 	}
 	function onDragEnter(e: EventType) {
 		e.preventDefault();
@@ -31,7 +31,6 @@
 		dispatch('onDragLeave', e);
 	}
 	function onDrop(e: EventType) {
-		e.preventDefault();
 		dispatch('onDrop', e);
 		onDropped(e);
 	}
@@ -62,7 +61,7 @@
 				class="b-game-card"
 				on:dragstart={onDragStart}
 				on:drag={onDrag}
-				on:dragend={onDragend}
+				on:dragend={onDragEnd}
 				draggable="true"
 				on:dragenter={onDragEnter}
 				on:dragover={onDragOver}
