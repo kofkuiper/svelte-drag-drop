@@ -1,8 +1,30 @@
 {
 	"name": "svelte-drag-drop",
 	"version": "0.0.1",
+	"description": "Svelte component to Darg and Drop images",
+	"author": {
+		"name": "kofkuiper",
+		"email": "kofkuiper@gmail.com",
+		"url": "https://github.com/kofkuiper"
+	},
+	"keywords": [
+		"svelte",
+		"drag-n-drop",
+		"movable",
+		"sortable",
+		"list"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "github",
+		"url": "https://github.com/kofkuiper/svelte-drag-drop"
+	},
+	"bugs": {
+		"url": "https://github.com/kofkuiper/svelte-drag-drop/issues"
+	},
+	"homepage": "https://github.com/kofkuiper/svelte-drag-drop",
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite dev --port 3000",
 		"build": "vite build && npm run package",
 		"preview": "vite preview",
 		"package": "svelte-kit sync && svelte-package && publint",
