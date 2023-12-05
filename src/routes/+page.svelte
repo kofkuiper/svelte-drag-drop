@@ -49,7 +49,7 @@
 		<h2>Svelte Drag Drop</h2>
 		<span>🚀https://github.com/kofkuiper/svelte-drag-drop</span>
 	</div>
-	<div class="text">npm i svelte-drag-drop</div>
+	<div class="text">npm i @kuiper/svelte-drag-drop</div>
 </div>
 
 <DragDrop
@@ -77,7 +77,7 @@
 		}
 		45%,
 		55% {
-			width: 14em;
+			width: 18em;
 		} /* adjust width based on content */
 		90%,
 		100% {
