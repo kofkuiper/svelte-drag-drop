@@ -1,5 +1,5 @@
 {
-	"name": "svelte-drag-drop",
+	"name": "@kuiper/svelte-drag-drop",
 	"version": "0.0.1",
 	"description": "Svelte component to Darg and Drop images",
 	"author": {
